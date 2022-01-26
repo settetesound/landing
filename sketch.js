@@ -96,8 +96,8 @@ function draw() {
        textSize(40);
        text("settete~", width/2-40, height/2);
        textSize(20);
-      text("creative audio collective", width/2-38, height/2+25);
-      text("settetesound@gmail.com", width-250, height-20);
+      text("audio collective", width/2-38, height/2+25);
+      text("settetesound@gmail.com", 10, 35);
      
       text("(click, drag around and have fun)", width/2-38, height/2+80);  
     
