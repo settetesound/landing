@@ -91,7 +91,7 @@ function draw() {
      g = random(255);
      b = random(255);
 	 colorInc = 0;
-	 background(255);
+	 background(223, 217, 212);
        fill(r,g,b);
        textSize(40);
        text("settete~", width/2-40, height/2);
