@@ -94,6 +94,7 @@ function draw() {
 	 background(223, 217, 212);
        fill(r,g,b);
        textSize(40);
+	fill(0);
        text("settete~", width/2-40, height/2);
        textSize(20);
       text("audio collective", width/2-38, height/2+25);
