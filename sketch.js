@@ -62,6 +62,10 @@ function draw() {
       
       
       for (var i = 0; i < 5; i = i + 1) {
+	r = random(255);
+     	g = random(255);
+     	b = random(255);
+	fill(r,g,b);
           
           sizecircle = random(75);
 	      moveX = random(-10, 10);
@@ -87,12 +91,10 @@ function draw() {
           
 		
 	} else {
-     r = random(255);
-     g = random(255);
-     b = random(255);
+
 	 colorInc = 0;
 	 background(223, 217, 212);
-       fill(r,g,b);
+
        textSize(40);
 	fill(0);
        text("settete~", width/2-40, height/2);
